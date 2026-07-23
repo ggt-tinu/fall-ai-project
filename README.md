@@ -46,9 +46,8 @@ Neural Network
 - Trained 50 epochs with an 80/20 train/validation split.
   
 **Results and Key Findings**
-Metric	Decision Tree     	Neural Network
-Accuracy	  0.830	              0.850
-F1 Score	  0.616	              0.667
+
+The Decision Tree achieved an accuracy of 0.830 and an F1 score of 0.616, while the Neural Network performed slightly better, with an accuracy of 0.850 and an F1 score of 0.667.
 
 The neural network edged out the decision tree on both metrics, but the gap was small relative to the added complexity of building and tuning it.
 The top predictive features for the Decision Tree are accommodates, room_type: Private room, neighbourhood_group_cleansed: Manhattan, bathrooms, and calculated_host_listings_count.
@@ -57,6 +56,8 @@ Training curves for the neural network showed mild overfitting (training loss ke
 Recommendation: Deploy the Decision Tree. The performance difference is small, and the tree is far easier to explain to non-technical stakeholders, trains faster, and costs less to run than the neural network.
 
 **Visualizations**
+
+
 The notebook (Capstone.ipynb) includes:
 - A class distribution countplot for price_category
 - A histogram of accommodates split by price category
