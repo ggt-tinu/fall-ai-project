@@ -1,5 +1,6 @@
 # fall-ai-project
-Predicting High-Priced Airbnb Listings in NYC
+**Predicting High-Priced Airbnb Listings in NYC**
+
 **Project Overview**
 
 This project applies the machine learning life cycle to a real-world business problem: predicting whether a New York City Airbnb listing is "high-priced" (top 25% of listing prices) or "low-priced," using listing, host, and review features. It was completed as a capstone spanning traditional supervised learning and neural networks.
@@ -17,10 +18,12 @@ Two models were built and compared:
 - Compare both approaches on performance, interpretability, and practical deployment trade-offs, and reflect on the results.
 
 **Dataset**
-Source: Airbnb NYC Listings data (airbnbListingsData.csv)
-Size: 28,022 listings, 51 original columns
-Label: price_category (low / high), high = listing price at or above the 75th percentile
-Class balance: ~75% low, ~25% high
+
+
+- Source: Airbnb NYC Listings data (airbnbListingsData.csv)
+- Size: 28,022 listings, 51 original columns
+- Label: price_category (low / high), high = listing price at or above the 75th percentile
+- Class balance: ~75% low, ~25% high
 
 A small synthetic sample_data.csv is included in this repo purely to illustrate the column schema and let others test the pipeline code. It is not real listing data, the original dataset is not redistributed here.
 
