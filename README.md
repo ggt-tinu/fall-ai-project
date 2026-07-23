@@ -70,5 +70,7 @@ The notebook (Capstone.ipynb) includes:
 - Try additional models (e.g., Random Forest, Gradient Boosting) for comparison.
 - Investigate fairness metrics across neighbourhood_group_cleansed groups to quantify disparate error rates.
   
-**Individual Contributions**/n
+**Individual Contributions**
+
+
 This was an individual capstone assignment; all analysis, modeling, and write-up were completed independently. AI assistance was used once, to debug a TensorFlow ValueError caused by boolean columns during Part 6 (neural network data prep) — the AI explained the root cause, and the fix (casting boolean columns to float) was implemented and verified independently.
